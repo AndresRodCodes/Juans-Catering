@@ -40,6 +40,11 @@ body button {
     min-width: 100px;
     height: 6vh;
     min-height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .fullScreen {
