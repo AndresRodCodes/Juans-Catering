@@ -6,14 +6,43 @@
 
 header {
     width: 100%;
-    padding: 30px 25px;
+    padding: 30px;
+}
+header h1 {
+    display: inline-block;
 }
 
 header nav {
-    text-align: right;
+    float: right;
 }
 
 header nav ul li {
     display: inline-block;
     margin: 0px 10px;
+}
+
+body #landing-page {
+    background-image: url(../img/home/resturant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body #subject {
+    padding: 15% 25%;
+}
+
+body h2 {
+    font-size: 4vw;
+}
+
+body button {
+    width: 8vw;
+    min-width: 100px;
+    height: 6vh;
+    min-height: 30px;
+}
+
+.fullScreen {
+    width: 100vw;
+    height: 100vh;
 }
