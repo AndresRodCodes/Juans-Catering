@@ -47,6 +47,10 @@ body button {
     border-radius: 5px;
 }
 
+body button:hover {
+    background-color: transparent;
+}
+
 .fullScreen {
     width: 100vw;
     height: 100vh;
