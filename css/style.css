@@ -10,6 +10,7 @@ header {
 }
 header h1 {
     display: inline-block;
+    font-size: 2.5vw;
 }
 
 header nav {
@@ -25,6 +26,7 @@ body #landing-page {
     background-image: url(../img/home/resturant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 body #subject {
@@ -108,4 +110,8 @@ footer #github-logo {
 footer ul li {
     display: inline-block;
     padding: 0 5px;
+}
+
+.caveatFont {
+    font-family: 'Caveat', cursive;
 }
