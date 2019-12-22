@@ -112,6 +112,10 @@ footer ul li {
     padding: 0 5px;
 }
 
-.caveatFont {
+.caveat-font {
     font-family: 'Caveat', cursive;
+}
+
+.nanum-font {
+    font-family: 'Nanum Myeongjo', serif;
 }
