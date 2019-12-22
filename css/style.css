@@ -31,7 +31,7 @@ body #subject {
     padding: 15% 25%;
 }
 
-body h2 {
+#landing-page h2 {
     font-size: 4vw;
 }
 
@@ -51,7 +51,61 @@ body button:hover {
     background-color: transparent;
 }
 
+#your-chef-layout {
+    text-align: center;
+    width: 100%;
+    padding: 5% 10%;
+    background-color: lightgoldenrodyellow;
+}
+
+#your-chef-layout div {
+    margin: 0px 10%;
+}
+
+#your-chef-layout #your-chef-pic {
+    vertical-align: middle;
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#your-chef-layout #your-chef-description {
+    display: inline-block;
+}
+
+#your-chef-layout #your-chef-description * {
+    text-align: left;
+    padding: 10px 0;
+}
+
 .fullScreen {
     width: 100vw;
     height: 100vh;
+}
+
+footer {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer .wrapper * {
+    margin: 5px 0px;
+}
+
+footer img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+footer #github-logo {
+    filter: invert(100%);
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 5px;
 }
