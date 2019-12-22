@@ -37,6 +37,35 @@ body #subject {
     font-size: 4vw;
 }
 
+#landing-page .menu {
+    position: relative;
+    display: inline-block;
+}
+
+#landing-page .menu-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+#landing-page .menu-content li {
+    display: block;
+    padding: 5px 10px;
+    margin: 0px 0px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#landing-page .menu-content li:hover {
+    background-color: grey;
+}
+
+#landing-page .menu:hover .menu-content {
+    display: block;
+}
+
 body button {
     width: 8vw;
     min-width: 100px;
@@ -57,7 +86,7 @@ body button:hover {
     text-align: center;
     width: 100%;
     padding: 5% 10%;
-    background-color: lightgoldenrodyellow;
+    background-color: white;
 }
 
 #your-chef-layout div {
