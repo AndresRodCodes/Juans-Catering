@@ -22,6 +22,11 @@ header nav ul li {
     margin: 0px 10px;
 }
 
+header nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
 body #landing-page {
     background-image: url(../img/home/resturant.jpg);
     background-repeat: no-repeat;
