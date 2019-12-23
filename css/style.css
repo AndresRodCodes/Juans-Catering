@@ -47,6 +47,7 @@ header .menu-content li {
     padding: 5px 10px;
     margin: 0px 0px;
     font-family: 'Nanum Myeongjo', serif;
+    cursor: pointer;
 }
 
 header .menu-content li:hover {
@@ -87,6 +88,7 @@ header .menu:hover .menu-content {
     border-width: thick;
     background-color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #landing-page button:hover {
