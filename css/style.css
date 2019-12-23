@@ -27,27 +27,12 @@ header nav ul a {
     color: white;
 }
 
-body #landing-page {
-    background-image: url(../img/home/resturant.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
-
-body #subject {
-    padding: 15% 25%;
-}
-
-#landing-page h2 {
-    font-size: 4vw;
-}
-
-#landing-page .menu {
+header .menu {
     position: relative;
     display: inline-block;
 }
 
-#landing-page .menu-content {
+header .menu-content {
     display: none;
     position: absolute;
     background-color: black;
@@ -56,22 +41,42 @@ body #subject {
     z-index: 1;
 }
 
-#landing-page .menu-content li {
+header .menu-content li {
     display: block;
     padding: 5px 10px;
     margin: 0px 0px;
     font-family: 'Nanum Myeongjo', serif;
 }
 
-#landing-page .menu-content li:hover {
+header .menu-content li:hover {
     background-color: grey;
 }
 
-#landing-page .menu:hover .menu-content {
+header .menu:hover .menu-content {
     display: block;
 }
 
-body button {
+.fullScreen {
+    width: 100vw;
+    height: 100vh;
+}
+
+#landing-page {
+    background-image: url(../img/home/resturant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#landing-page #subject {
+    padding: 15% 25%;
+}
+
+#landing-page h2 {
+    font-size: 4vw;
+}
+
+#landing-page button {
     width: 8vw;
     min-width: 100px;
     height: 6vh;
@@ -83,7 +88,7 @@ body button {
     border-radius: 5px;
 }
 
-body button:hover {
+#landing-page button:hover {
     background-color: transparent;
 }
 
@@ -113,11 +118,6 @@ body button:hover {
 #your-chef-layout #your-chef-description * {
     text-align: left;
     padding: 10px 0;
-}
-
-.fullScreen {
-    width: 100vw;
-    height: 100vh;
 }
 
 footer {
