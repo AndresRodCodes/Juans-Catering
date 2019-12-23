@@ -110,6 +110,7 @@ header .menu:hover .menu-content {
     width: 30%;
     height: auto;
     border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
 }
 
 #your-chef-layout #your-chef-description {
