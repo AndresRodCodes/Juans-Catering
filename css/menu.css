@@ -1,3 +1,59 @@
 body {
     background-color: black;
+    color: white;
+}
+
+.menu-page {
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.menu-page #page-title {
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 1% 0%;
+    font-style: italic;
+}
+
+.menu-item-row-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-item-row-wrapper .menu-item-row {
+    display: inline-block;
+}
+
+.menu-item-row {
+    width: 90%;
+    padding: 2.5% 10%;
+    background-color:white;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin: 10px;
+}
+
+.menu-item-row div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0% 15%;
+}
+
+.menu-item-row .menu-item-title {
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.menu-item-row div ul li {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.menu-item-row .menu-picture {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
 }
