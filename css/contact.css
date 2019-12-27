@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+header #contact-info .phone-icon {
+    filter: invert(100%);
+}
+
+.contact-page {
+    width: 100vw;
+    height: 87vh;
+    background-color: white;
+}
