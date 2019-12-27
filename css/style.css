@@ -5,7 +5,7 @@
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     padding: 30px;
     color: white;
 }
@@ -70,8 +70,7 @@ header .phone-icon {
 }
 
 header .phone-number {
-    display: inline;
-    vertical-align: top;
+    display: inline-block;
     vertical-align: middle;
 }
 
