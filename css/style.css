@@ -21,6 +21,7 @@ header nav {
 header nav ul li {
     display: inline-block;
     margin: 0px 10px;
+    vertical-align: middle;
 }
 
 header nav ul a {
@@ -56,6 +57,22 @@ header .menu-content li:hover {
 
 header .menu:hover .menu-content {
     display: block;
+}
+
+header #contact-info {
+    vertical-align: middle;
+}
+header .phone-icon {
+    display: inline-block;
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+
+header .phone-number {
+    display: inline;
+    vertical-align: top;
+    vertical-align: middle;
 }
 
 .fullScreen {

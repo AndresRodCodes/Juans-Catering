@@ -57,3 +57,7 @@ body {
     vertical-align: middle;
     border-radius: 5px;
 }
+
+header .phone-icon {
+    filter: invert(100%);
+}
