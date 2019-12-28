@@ -11,3 +11,47 @@ header #contact-info .phone-icon {
     height: 87vh;
     background-color: white;
 }
+
+.contact-page .banner {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: tomato;
+}
+
+.contact-page .banner-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+.contact-page .card-wrapper {
+    display: inline-block;
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    vertical-align: top;
+}
+
+.contact-page .card-wrapper .card {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    margin: 0px 10px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    
+}
+
+.contact-page .card-wrapper .card .card-contents { 
+}
+
+.contact-page .phone-icon {
+    width: 4rem;
+    height: auto;
+}
