@@ -33,7 +33,6 @@ header #contact-info .phone-icon {
     height: 100%;
     z-index: 1;
     text-align: center;
-    vertical-align: middle;
 }
 
 .contact-page .card-wrapper .card {
@@ -49,11 +48,31 @@ header #contact-info .phone-icon {
 
 .contact-page .card-wrapper .card-contents {
     display: inline-block;
-    width: 100%;
-    height: 100%;
-    border-color: black;
+    height: auto;
+    margin: 7% 0%;
+}
+
+.contact-page .card-wrapper .card-contents * {
+    margin: 10px 0px;
+}
+
+.contact-page .card-wrapper button {
+    width: 8vw;
+    min-width: 100px;
+    height: 6vh;
+    min-height: 30px;
     border-style: solid;
-    vertical-align: middle;
+    border-color: black;
+    border-width: medium;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.contact-page .card-wrapper button:hover {
+    background-color: black;
+    color: white;
 }
 
 .contact-page .phone-icon {
