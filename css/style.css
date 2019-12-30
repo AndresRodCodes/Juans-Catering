@@ -173,3 +173,8 @@ footer ul li {
 .nanum-font {
     font-family: 'Nanum Myeongjo', serif;
 }
+
+.icon-medium {
+    width: 15%;
+    height: auto;
+}
