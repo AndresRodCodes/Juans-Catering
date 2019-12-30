@@ -80,9 +80,10 @@ header .phone-number {
 }
 
 #landing-page {
-    background-image: url(../img/home/resturant.jpg);
+    background-image: url(../img/home/tacos-home-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    filter: saturate(60%);
     color: white;
 }
 
@@ -109,6 +110,7 @@ header .phone-number {
 
 #landing-page button:hover {
     background-color: transparent;
+    color: white;
 }
 
 #your-chef-layout {
