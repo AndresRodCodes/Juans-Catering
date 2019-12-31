@@ -67,6 +67,7 @@ header .phone-icon {
     width: 20px;
     height: auto;
     vertical-align: middle;
+    filter: invert(100%);
 }
 
 header .phone-number {
@@ -83,8 +84,12 @@ header .phone-number {
     background-image: url(../img/home/tacos-home-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: saturate(60%);
     color: white;
+}
+
+#landing-page .image-filter {
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
 }
 
 #landing-page #subject {
@@ -106,6 +111,7 @@ header .phone-number {
     background-color: white;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 #landing-page button:hover {
